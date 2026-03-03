@@ -1,0 +1,12 @@
+{
+  "servers": {
+    "zoltbot-society": {
+      "type": "stdio",
+      "command": "C:\\Users\\sreenaga\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe",
+      "args": [
+        "C:\\Users\\sreenaga\\ADO\\ws1\\zoltbot\\zoltbot.py",
+        "mcp-server"
+      ]
+    }
+  }
+}
