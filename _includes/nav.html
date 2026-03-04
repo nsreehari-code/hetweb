@@ -1,0 +1,24 @@
+<nav>
+  <a class="nav-logo" href="{{ '/' | relative_url }}"><span>Heartfulness</span> Skill Institute</a>
+  <ul class="nav-links">
+    <li><a href="{{ '/' | relative_url }}#pillars">Pillars</a></li>
+    <li><a href="{{ '/' | relative_url }}#tiers">Tiers</a></li>
+    <li><a href="{{ '/' | relative_url }}#domains">Domains</a></li>
+    <li><a href="{{ '/' | relative_url }}#find-path">Pathways</a></li>
+    <li><a href="{{ '/' | relative_url }}#courses">Courses</a></li>
+    <li><a href="{{ '/' | relative_url }}#model">Model</a></li>
+  </ul>
+  <a class="nav-cta" href="{{ '/' | relative_url }}#courses">Explore Courses</a>
+  <button class="nav-hamburger" id="hamburger" onclick="toggleMenu()" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="{{ '/' | relative_url }}#pillars" onclick="toggleMenu()">Pillars</a>
+  <a href="{{ '/' | relative_url }}#tiers" onclick="toggleMenu()">Tiers</a>
+  <a href="{{ '/' | relative_url }}#domains" onclick="toggleMenu()">Domain Tracks</a>
+  <a href="{{ '/' | relative_url }}#find-path" onclick="toggleMenu()">Pathways</a>
+  <a href="{{ '/' | relative_url }}#courses" onclick="toggleMenu()">Courses</a>
+  <a href="{{ '/' | relative_url }}#model" onclick="toggleMenu()">Operating Model</a>
+  <a href="{{ '/' | relative_url }}#courses" class="nav-cta" style="text-align:center;margin-top:0.5rem;" onclick="toggleMenu()">Explore Courses</a>
+</div>

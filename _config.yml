@@ -1,0 +1,10 @@
+title: "Heartfulness Skill Institute"
+description: "AI, Cyber & Digital Skills for India"
+url: "https://nsreehari-code.github.io"
+baseurl: "/hetweb"
+
+# Exclude non-site files from build
+exclude:
+  - _docs
+  - README.md
+  - LICENSE
